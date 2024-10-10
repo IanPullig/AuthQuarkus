@@ -15,7 +15,7 @@ public class User extends PanacheEntity {
     public String password;
     public String role;
 
-    // o construtor vazio indica que a entidade deve ser mapeada em coluna
+    // o construtor vazio indica que a entidade deve ser mapeada em coluna vai tomar no cu carlho HAHAHAHAHAHA
    public User (){}
 
     public User(String username, String password, String role) {
