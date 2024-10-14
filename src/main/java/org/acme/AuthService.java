@@ -17,8 +17,9 @@ public class AuthService {
 
             return GenerateToken.generateToken(username, role);
             }
-
-
+        public User findByCpf (String cpf) {
+            return User.find("cpf", cpf).firstResult();
+        }
     }
 
 
